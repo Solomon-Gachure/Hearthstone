@@ -9,7 +9,7 @@ const Navbar = () => {
         setMenu(false)
     }
   return (
-    <div className='flex justify-between items-center p-2 bg-stone-800 '>
+    <div className='flex justify-between items-center p-2  bg-stone-800 '>
         {/**Navbar with account option and a harmburger */}
         <div className='p-2'>
             {/**title */}
@@ -38,7 +38,7 @@ const Navbar = () => {
         {/**Menu on harmbuger */}
         {
             menu &&
-            <div className=' top-0 left-0 fixed w-[200px] p-2 bg-stone-800 font-bold h-full  ease-in-out duration-300 '>
+            <div className=' top-0 left-0 fixed w-[200px] z-50  p-2 bg-stone-800 font-bold h-full  ease-in-out duration-300 '>
                 <MdClose onClick={handleClose} size={25} className='text-white font-bold m-4 cursor-pointer' />
                 <ul className='flex flex-col gap-4 top-4  text-lime-500 text-2xl'>
                 <li className='cursor-pointer'>Home</li>
