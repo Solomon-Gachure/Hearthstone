@@ -2,9 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
+    <div className='w-full h-screen'>
       {/**hero section with the different wordings */}
-      <div className='w-full relative'>
+      <div className='w-full '>
         <img  
         className='object-cover w-full h-[500px] '
         src="https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695877.jpg?uid=R114683630&ga=GA1.1.134876288.1693412887&semt=ais_ai_generated"
