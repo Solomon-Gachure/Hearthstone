@@ -6,6 +6,7 @@ function App() {
     <div >
       <Navbar/>
       <Home/>
+      <About/>
     </div>
   );
 }
